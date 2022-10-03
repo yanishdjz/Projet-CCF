@@ -1,3 +1,4 @@
+
 body {
     background: linear-gradient(45deg, #312289, #0e6e7b);
     height: 100vh;
@@ -34,8 +35,8 @@ body {
    color: white;
    font-weight: 500;
    opacity: .7; 
-   font-size: 1.6rem;
-   margin-bottom: 60px;
+   font-size: 1.8rem;
+   margin-bottom: 40px;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
   }
 
@@ -74,7 +75,7 @@ body {
 }
 
 input:hover,
-input[type="email"]:focus,
+input[type="email"]:focus{font-size: 20px;}
 input[type="password"]:focus {
     background: rgba(0, 0, 0, .1);
     box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, .2);

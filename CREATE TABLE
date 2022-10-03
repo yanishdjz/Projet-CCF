@@ -1,0 +1,62 @@
+CREATE TABLE identité   
+
+( 
+
+nom_candidat varchar(14), 
+
+prénom_candidat varchar(14), 
+
+ID_candidat  varchar(12), 
+
+code_bts char(3) 
+
+ );
+
+ 
+
+CREATE TABLE note  
+
+( 
+
+note_obtenu float, 
+
+le_coefficient float, 
+
+commentaire longtext,  
+
+date_épreuve Date, 
+
+heure_de_convocation TIME
+
+);
+ 
+
+CREATE TABLE épreuve 
+
+( 
+
+Libellé_épreuve_CCF char(29),  
+
+libellé_du_BTS varchar(39), 
+
+année_scolaire smallint, 
+
+Code_CCF char(2),  
+
+la_durée smallint
+
+); 
+
+ 
+
+CREATE TABLE id_prof 
+
+( 
+
+nom_prof varchar(14), 
+
+prénom_prof varchar(14), 
+
+ID_NUMEN char(13)
+ 
+ );
